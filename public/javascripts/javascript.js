@@ -53,7 +53,7 @@ function signUp(){
 
 function feedbackPage(){
 
-    var feedbackpageshow = "<div class='quizcenter'><div id='question'><br><p style='font-size: 25px;'>Share your Views about Quizmaster!!</p><div id='comment'></div><br><form  onsubmit='feedback();'><textarea name='comments' cols='65' rows='7' placeholder='Enter your comments!!' id='feed'></textarea><br><input type='button' value='comment' onclick='feedback();' class='allbutton'></div></form></div></div><footer>CopyRight© Zain Ansari,2016</footer>";
+    var feedbackpageshow = "<div class='quizcenter'><div id='question'><br><p style='font-size: 25px;'>Share your Views about Quizmaster!!</p><div id='comment'></div><br><form  onsubmit='feedback();'><textarea name='comments' cols='65' rows='7' placeholder='Enter your comments!!' id='feed'></textarea><br><input type='button' value='comment' onclick='feedback();' class='allbutton'></div></form></div></div><footer>CopyRight© Zain Ansari,2014</footer>";
     document.getElementById('mainpagecenter').innerHTML = feedbackpageshow;
     document.getElementById('footer').style.display = 'none';
 
@@ -61,16 +61,6 @@ function feedbackPage(){
 
 
 function feedback() {
-    /*
-     document.getElementById('commentButton').onclick =
-     function (){
-     displayComment();
-     };
-     function displayComment() {
-
-     var views = document.getElementById('feed').value;
-     document.getElementById('comment').innerHTML = views;
-     //comment.style.color = "red";*/
 
     var views = document.getElementById('feed').value;
     document.getElementById('comment').innerText = views;
@@ -79,9 +69,9 @@ function feedback() {
 
 }
 
-function quizPage(){
+function quizPage() {
 
-    var quizespageshow ="<div class='quizcenter'><div id='question'><br><p style='font-size: 25px;'>Ask Questions!!</p><div id='askquestions'></div><br><form  onsubmit='askQuiz();'><textarea name='comments' cols='65' rows='7' placeholder='Ask questions!!' id='askquiz'></textarea><br><input type='button' value='Post' onclick='askQuiz();' class='allbutton'></div></form></div></div><footer>CopyRight© Zain Ansari,2016</footer>";
+    var quizespageshow ="<div class='quizcenter'><div id='question'><br><p style='font-size: 25px;'>Ask Questions!!</p><div id='askquestions'></div><br><form  onsubmit='askQuiz();'><textarea name='comments' cols='65' rows='7' placeholder='Ask questions!!' id='askquiz'></textarea><br><input type='button' value='Post' onclick='askQuiz();' class='allbutton'></div></form></div></div><footer>CopyRight© Zain Ansari,2014</footer>";
     document.getElementById('mainpagecenter').innerHTML = quizespageshow;
     document.getElementById('footer').style.display = 'none';
 
@@ -94,21 +84,11 @@ function askQuiz(){
     var question = document.getElementById('askquiz').value = "";
     askquestions.style.color = "RoyalBlue";
 
-
 }
 
+function aboutPage(){
 
-
-
-
-
-
-
-
-
-    function aboutPage(){
-
-    var aboutpageshow ="<div id='aboutcenter'><div id='question'><div id='about'>About US</div><br><p style='font-size: 25px;'>Webmaster provides tutorial of HTML5,CSS3 and Javascript!!</p><br><br><br></div><div id='aboutbrief'>The rise in the use of mobile devices has led many a developer to throw up their hands in frustration.<br>Should a business require both a website and a mobile application?<br>This websites provides HTML5,CSS3 and JavaScript languages tutorials that work equally well on all mobile platforms as well as websites.<br><br><br>You learn these languages and give test to test your skills.</div><br><br><div id='hcjimg'><img src='/images/progressive-enhancement.png' id='progressimg'></div></div><footer>CopyRight© Zain Ansari,2016</footer>";
+    var aboutpageshow ="<div id='aboutcenter'><div id='question'><div id='about'>About US</div><br><p style='font-size: 25px;'>Webmaster provides tutorial of HTML5,CSS3 and Javascript!!</p><br><br><br></div><div id='aboutbrief'>The rise in the use of mobile devices has led many a developer to throw up their hands in frustration.<br>Should a business require both a website and a mobile application?<br>This websites provides HTML5,CSS3 and JavaScript languages tutorials that work equally well on all mobile platforms as well as websites.<br><br><br>You learn these languages and give test to test your skills.</div><br><br><div id='hcjimg'><img src='progressive-enhancement.png' id='progressimg'></div></div><footer>CopyRight© Zain Ansari,2014</footer>";
     document.getElementById('mainpagecenter').innerHTML = aboutpageshow;
     document.getElementById('footer').style.display = 'none';
 
@@ -117,18 +97,11 @@ function askQuiz(){
 
 function contactus() {
 
-    var contactpageshow ="<div id='aboutcenter'><div id='question'><div id='about'>Contact US</div><br><p style='font-size: 25px;'>You can contact us from following details</p><br><br><br><div id='contact'><fieldset><legend>Details:</legend>Company Name: Ansari Developers<br> Email: zainansari11@y7mail.com<br>Phone no.s: 0336-2344369<p> Join us on</p><a href='none'><img src='/images/facebook.png' alt='pic not found' width='40' height='37'></a><a href='none'><img src='/images/twitter.png' alt='pic not found' width='38' height='37'></a><a href='none'><img src='/images/skype.png' width='35' height='37'></a></fieldset><br><br></div></div></div><footer>CopyRight© Zain Ansari,2016</footer>";
+    var contactpageshow ="<div id='aboutcenter'><div id='question'><div id='about'>Contact US</div><br><p style='font-size: 25px;'>You can contact us from following details</p><br><br><br><div id='contact'><fieldset><legend>Details:</legend>Company Name: Ansari Developers<br> Email: zainansari11@y7mail.com<br>Phone no.s: 0336-2344369<p> Join us on</p><a href='none'><img src='facebook.png' alt='pic not found' width='40' height='37'></a><a href='none'><img src='twitter.png' alt='pic not found' width='38' height='37'></a><a href='none'><img src='skype.png' width='35' height='37'></a></fieldset><br><br></div></div></div><footer>CopyRight© Zain Ansari,2014</footer>";
     document.getElementById('mainpagecenter').innerHTML = contactpageshow;
     document.getElementById('footer').style.display = 'none';
 
 }
-
-
-
-
-
-
-
 
 
 function Question1(){

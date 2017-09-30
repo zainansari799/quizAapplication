@@ -1,15 +1,12 @@
 body{
-    /*background-color: cyan;*/
-    /*background-color: MediumTurquoise;*/
     background-color: OldLace !important;
 }
 #maincenter{
     background-color: white;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 23px;
     width: 1000px;
-    height: 700px;
+    height: 600px;
     border-radius: 10px 10px 10px 10px;
 }
 .wrap{
@@ -27,11 +24,10 @@ body{
 }
 .quizcenter{
     background-color: white;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 50px auto;
     margin-top: 23px;
     width: 1000px;
-    height: 650px;
+    height: 600px;
     border-radius: 10px 10px 10px 10px;
 }
 #aboutcenter{
@@ -80,9 +76,8 @@ fieldset{
 }
 b{
     font-size: 50px;
-    /*color: indianred;*/
     color: LightSlateGray;
-    margin-left: 461px;
+    margin-left: 160px !important;
 
     }
 #feedback{
@@ -119,8 +114,8 @@ b{
 }
 #search{
     float: right;
-    margin-right: 470px;
-    margin-top: 21px;
+    margin-right: 160px;
+    margin-top: 50px;
     border-radius: 7px 1px 7px 1px;
 }
 
@@ -174,6 +169,9 @@ nav ul ul li>a:hover{
     /*background-color: indianred;*/
     background-color: #404040 ;
     color: darkcyan;
+}
+div#courses tr:nth-child(2) a, div#courses tr:nth-child(3) a{
+    cursor: not-allowed;
 }
 #courses a{
     display: block;
@@ -235,6 +233,7 @@ nav ul ul li>a:hover{
 footer{
     text-align: center;
     color: black;
+    margin: 50px auto;
 }
 h3{
     color: dimgray;
@@ -257,14 +256,14 @@ h3{
 
 #hcj{
     font-size: 75px;
-    /*color: indianred;*/
     color: LightSlateGray;
-    margin-left: 461px;
+    margin-left: 160px;
     font-family: Informal Roman;
 }
 #html5test{
    font-family: Brush Script Std;
-
+    margin: 20px 0px;
+    display: block !important;
 }
 
 .rightshow{
